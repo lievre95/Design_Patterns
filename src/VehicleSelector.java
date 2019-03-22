@@ -9,7 +9,7 @@ public class VehicleSelector {
     }
     private VehicleSelector(){
     }
-    public Vehicle getVehicle(RoadType roadType){ // creating new obj
+    public Vehicle getVehicle(RoadType roadType){ // creating new obj (Factory)
         Vehicle vehicle  = null;
         switch (roadType){
             case CITY:
