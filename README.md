@@ -29,9 +29,10 @@ to edentify the authentic obj and copy. So that’s help us to save time and mak
 Human copy1 =(Human)original.copy();<br>
 System.out.println(copy1+“this is copy1”);</p>
 </blockquote>
-<p><em>Example of code:</em><br>
+
 <strong>Builder</strong><br>
 Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.</p>
+<p><em>Example of code:</em><br>
 <blockquote>
 <p>Vehicle vehicle = new VehicleBuilder()<br>
 .buildMake(“Mercedes”)<br>
